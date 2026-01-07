@@ -104,7 +104,7 @@ class TodoApp {
             
             const deleteBtn = document.createElement('button');
             deleteBtn.className = 'delete-btn';
-            deleteBtn.textContent = '削除';
+            deleteBtn.textContent = '삭제';
             deleteBtn.addEventListener('click', () => this.deleteTodo(todo.id));
             
             li.appendChild(checkbox);
